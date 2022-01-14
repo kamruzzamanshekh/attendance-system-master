@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Department Dashboard</title>
+  
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/scrolling-nav.css" rel="stylesheet">
+
+		<style>
+			@media screen and (min-width: 768px) {
+			  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+					display: block;
+					background-color: #0C8EDA;
+					color:#fff;
+				}
+				.dropdown-menu{
+					margin-top: 0;
+				}
+				.dropdown-toggle{
+					margin-bottom: 2px;
+				}
+				.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+					margin-bottom: 0;
+				}
+			}
+
+			.header-color {
+				background-color:#202C45;
+			}
+		</style>
+	</head>
+	<body>
+		
+		 <!-- Navigation bg-dark-->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top header-color" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">NSTU</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="nav navbar-nav ml-auto text-white">
+						<li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+						<li class="dropdown"><a class="dropdown-toggle nav-link text-white" href="">Batch</a>
+							<ul class="dropdown-menu">
+								<li><a class="nav-link text-white" href="#">1st Batch</a></li>
+								<li><a class="nav-link text-white" href="#">2nd Batch</a></li>
+							</ul>
+						</li>
+						<li><a class="nav-link text-white" href="#">Teacher</a></li>
+						<li><a class="nav-link text-white" href="#">Assign Teacher</a></li>
+						<li class="dropdown"><a class="dropdown-toggle nav-link text-white" href="">Report</a>
+							<ul class="dropdown-menu">
+								<li><a class="nav-link text-white" href="#">1st Batch</a></li>
+								<li><a class="nav-link text-white" href="#">2nd Batch</a></li>
+							</ul>
+						</li>
+						<!-- Generate the list of batch from database and goto one php page -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<header class="bg-primary text-white">
+			<div class="container text-center">
+				<h1>Welcome to Department Name</h1>
+				<p class="lead">Department info</p>
+			</div>
+		</header>
+
+		<section id="Home">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-8 mx-auto">
+				<p>Department information</p>
+			</div>
+		  </div>
+		</div>
+	  </section>
+		
+
+	</body>
+</html>

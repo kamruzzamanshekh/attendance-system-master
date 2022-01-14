@@ -1,0 +1,110 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  /* Margin bottom by footer height */
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+    display: block;
+    background-color: #0C8EDA;
+    color: #fff;
+  }
+
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+  .dropdown-toggle {
+    margin-bottom: 2px;
+  }
+
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+  margin-left: .1em;
+  margin-right: .1em;
+}
+
+.nav-item:hover {
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: #6E7480;
+}
+
+.header-color {
+  background-color: #202C45;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.link {
+  color: #fff;
+}
+
+.link:hover, .link:focus {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  text-align: center;
+  color: #fff;
+  background: rgb(9, 95, 234);
+}
+
+.footer-bottom {
+  width: auto;
+  padding-top: 20px;
+}
+
+.active {
+  border-radius: 0.5rem;
+  background-color: #007bff;
+}
